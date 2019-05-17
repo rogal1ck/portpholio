@@ -1,0 +1,5 @@
+FROM base_dbus
+
+COPY bitrix-env.sh /root
+
+RUN  mkdir /root/content
